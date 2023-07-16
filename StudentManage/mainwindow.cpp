@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     m_dlgLogin.show();
     auto f = [&](){
         this->show();
+        ui->lbl_Admin->setText(m_dlgLogin.str);
     };
     connect(&m_dlgLogin,&Page_Login::sendLoginSuccess,this,f);
 
@@ -152,11 +153,6 @@ MainWindow::MainWindow(QWidget *parent)
     m_lName<<"严浩阔";
 
     updateTable();
-
-
-    connect(p1,&QTreeWidgetItem::;this[&](){
-
-        });
 
 }
 

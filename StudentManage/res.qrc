@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/登录.png</file>
+        <file>Image/Login.png</file>
+    </qresource>
+</RCC>
